@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/../fonts/Inter-Regular.woff2") format("woff2"),
+    url("/../fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("/../fonts/Inter-Bold.woff2") format("woff2"),
+    url("/../fonts/Inter-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url("/../fonts/Inter-Black.woff2") format("woff2"),
+    url("/../fonts/Inter-Black.woff") format("woff");
+}
+
+A {
+  color: #ffff;
+}
+
+.page {
+  width: 100%;
+  background-color: #2a2c2f;
+  color: #ffff;
+  font-family: "Inter", "Arial", sans-serif;
+}
+
+.content {
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .content {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .content {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    max-width: 520px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .content {
+    max-width: 288px;
+  }
+}

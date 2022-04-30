@@ -1,0 +1,8 @@
+.place__title {
+  min-height: 152px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.06;
+  text-align: left;
+  z-index: 1;
+}
