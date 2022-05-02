@@ -1,8 +1,18 @@
 .footer {
-  margin: 0;
-  max-width: 1184px;
   min-height: 18px;
   display: flex;
   justify-content: space-between;
   position: relative;
+  padding-bottom: 24px;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    min-height: 310px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: flex-start;
+    position: relative;
+  }
 }
