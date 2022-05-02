@@ -1,4 +1,4 @@
-.place__web-link_transition {
+.place__link-transition {
   padding: 0;
   margin: 0;
   font-size: 18px;
@@ -13,6 +13,6 @@
   -o-transition: opacity 0.2s ease-in-out;
 }
 
-.place__web-link_transition:hover {
+.place__link-transition:hover {
   opacity: 30%;
 }

@@ -23,7 +23,7 @@
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__web-link/place__web-link.css);
-@import url(../blocks/place/__web-link/_transition/place__web-link_transition.css);
+@import url(../blocks/place/__link-transition/place__link-transition.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/cover/cover.css);
