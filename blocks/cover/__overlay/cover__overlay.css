@@ -6,6 +6,7 @@
   height: 100%;
   width: 100%;
   background-color: #2a2c2f;
+  margin: 0;
   opacity: 30%;
   transition: opacity 0.5s ease-in-out;
   z-index: 1;
@@ -13,4 +14,10 @@
 
 .cover__overlay:hover {
   opacity: 80%;
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__overlay {
+    width: 100vw;
+  }
 }
