@@ -2,28 +2,26 @@
   min-height: 740px;
   max-width: 100%;
   width: 100%;
-  margin: 86px auto;
+  margin: 92px auto;
   position: relative;
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
     min-height: 640px;
-    width: 100vw;
-    margin: 92px auto;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
+    margin: 90px 0 88px;
     min-height: 480px;
-    margin: 90px 0 88px -24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
+    margin: 66px 0 64px;
     min-height: 200px;
-    margin: 66px 0 64px -16px;
   }
 }
