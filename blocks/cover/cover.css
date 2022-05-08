@@ -25,13 +25,12 @@
   .cover {
     margin: 66px 0 64px;
     min-height: 360px;
-    max-width: 575px;
+    max-width: 576px;
   }
 }
 
 @media screen and (max-width: 575px) {
   .cover {
-    margin: 66px 0 64px;
     min-height: 200px;
     max-width: 320px;
   }
